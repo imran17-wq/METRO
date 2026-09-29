@@ -45,3 +45,6 @@ Thumbs.db
 # Node
 node_modules/
 frontend/dist/
+
+# Synthetic Data
+data/synthetic/*.csv
