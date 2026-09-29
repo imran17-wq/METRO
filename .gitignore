@@ -37,3 +37,11 @@ data/reference/**
 # OS
 .DS_Store
 Thumbs.db
+
+# Secrets
+.env
+.env.*
+
+# Node
+node_modules/
+frontend/dist/
