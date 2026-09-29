@@ -1,0 +1,8 @@
+interchange_id,physical_station_name,participating_lines,transfer_penalty_min,notes
+INT01,Nadaprabhu Kempegowda Station (Majestic),Purple|Green,3.0,Primary interchange between Purple and Green Lines
+INT02,Rashtreeya Vidyalaya Road (RV Road),Green|Yellow,3.0,Interchange between Green and Yellow Lines
+INT03,Jayadeva Hospital,Yellow|Pink,3.0,Interchange between Yellow and Pink Lines (2025)
+INT04,Central Silk Board,Yellow|Blue,3.0,Interchange between Yellow and Blue Lines (2025)
+INT05,Mahatma Gandhi Road (MG Road),Purple|Pink,3.0,Interchange between Purple and Pink Lines (2025)
+INT06,Krishnarajapura (KR Pura),Purple|Blue,3.0,Interchange between Purple and Blue Lines (2025)
+INT07,Nagawara,Pink|Blue,3.0,Interchange between Pink and Blue Lines (2025)

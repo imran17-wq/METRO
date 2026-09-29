@@ -1,0 +1,126 @@
+station_id,station_name,line,sequence,is_interchange,interchange_lines,notes
+PL01,Whitefield (Kadugodi),Purple,1,False,,Eastern terminus of Purple Line
+PL02,Channasandra,Purple,2,False,,
+PL03,Kadugodi Tree Park,Purple,3,False,,
+PL04,Pattandur Agrahara,Purple,4,False,,
+PL05,Sri Sathya Sai Hospital,Purple,5,False,,
+PL06,Nallurhalli,Purple,6,False,,
+PL07,Kundalahalli,Purple,7,False,,
+PL08,Seetharam Palya,Purple,8,False,,
+PL09,Hoodi,Purple,9,False,,
+PL10,Garudacharapalya,Purple,10,False,,
+PL11,Singayyanapalya,Purple,11,False,,
+PL12,Krishnarajapura (KR Pura),Purple,12,True,Purple|Blue,Interchange between Purple and Blue Lines
+PL13,Benniganahalli,Purple,13,False,,
+PL14,Baiyappanahalli,Purple,14,False,,
+PL15,Swami Vivekananda Road,Purple,15,False,,
+PL16,Indiranagar,Purple,16,False,,
+PL17,Trinity,Purple,17,False,,
+PL18,Mahatma Gandhi Road (MG Road),Purple,18,True,Purple|Pink,Interchange between Purple and Pink Lines
+PL19,Cubbon Park,Purple,19,False,,
+PL20,Dr. B.R. Ambedkar Station (Vidhana Soudha),Purple,20,False,,
+PL21,Sir M. Visvesvaraya Station (Central College),Purple,21,False,,
+PL22,Nadaprabhu Kempegowda Station (Majestic),Purple,22,True,Purple|Green,Primary interchange between Purple and Green Lines
+PL23,Krantivira Sangolli Rayanna (KSR) City Railway Station,Purple,23,False,,Also known as KSR City Railway Station
+PL24,Magadi Road,Purple,24,False,,
+PL25,Hosahalli,Purple,25,False,,
+PL26,Vijayanagar,Purple,26,False,,
+PL27,Attiguppe,Purple,27,False,,
+PL28,Deepanjali Nagar,Purple,28,False,,
+PL29,Mysuru Road,Purple,29,False,,
+PL30,Nayandahalli,Purple,30,False,,
+PL31,Jnanabharathi,Purple,31,False,,
+PL32,Rajarajeshwari Nagar,Purple,32,False,,
+PL33,Pattanagere,Purple,33,False,,
+PL34,Kengeri Bus Terminal,Purple,34,False,,
+PL35,Kengeri,Purple,35,False,,
+PL36,Challaghatta,Purple,36,False,,Western terminus of Purple Line
+GL01,Madavara,Green,1,False,,Northern terminus of Green Line
+GL02,Chikkabidarakallu,Green,2,False,,
+GL03,Manjunathanagar,Green,3,False,,
+GL04,Nagasandra,Green,4,False,,
+GL05,Dasarahalli,Green,5,False,,
+GL06,Jalahalli,Green,6,False,,
+GL07,Peenya Industry,Green,7,False,,
+GL08,Peenya,Green,8,False,,
+GL09,Goraguntepalya,Green,9,False,,
+GL10,Yeshwanthpur,Green,10,False,,
+GL11,Sandal Soap Factory,Green,11,False,,
+GL12,Mahalakshmi,Green,12,False,,
+GL13,Rajajinagar,Green,13,False,,
+GL14,Mahakavi Kuvempu Road,Green,14,False,,
+GL15,Srirampura,Green,15,False,,
+GL16,Sampige Road (Mantri Square),Green,16,False,,
+GL17,Nadaprabhu Kempegowda Station (Majestic),Green,17,True,Purple|Green,Primary interchange between Purple and Green Lines
+GL18,Chickpete,Green,18,False,,
+GL19,Krishna Rajendra Market (KR Market),Green,19,False,,
+GL20,National College,Green,20,False,,
+GL21,Lalbagh,Green,21,False,,
+GL22,South End Circle,Green,22,False,,
+GL23,Jayanagar,Green,23,False,,
+GL24,Rashtreeya Vidyalaya Road (RV Road),Green,24,True,Green|Yellow,Interchange between Green and Yellow Lines
+GL25,Banashankari,Green,25,False,,
+GL26,Jaya Prakash Nagar,Green,26,False,,
+GL27,Yelachenahalli,Green,27,False,,
+GL28,Konanakunte Cross,Green,28,False,,
+GL29,Doddakallasandra,Green,29,False,,
+GL30,Vajrahalli,Green,30,False,,
+GL31,Thalaghattapura,Green,31,False,,
+GL32,Silk Institute,Green,32,False,,Southern terminus of Green Line
+YL01,Rashtreeya Vidyalaya Road (RV Road),Yellow,1,True,Green|Yellow,Northern terminus of Yellow Line; interchange with Green Line
+YL02,Ragigudda,Yellow,2,False,,
+YL03,Jayadeva Hospital,Yellow,3,True,Yellow|Pink,Interchange between Yellow and Pink Lines
+YL04,BTM Layout,Yellow,4,False,,
+YL05,Central Silk Board,Yellow,5,True,Yellow|Blue,Interchange between Yellow and Blue Lines
+YL06,Bommanahalli,Yellow,6,False,,
+YL07,Hongasandra,Yellow,7,False,,
+YL08,Kudlu Gate,Yellow,8,False,,
+YL09,Singasandra,Yellow,9,False,,
+YL10,Hosa Road,Yellow,10,False,,
+YL11,Beratena Agrahara,Yellow,11,False,,
+YL12,Electronic City,Yellow,12,False,,
+YL13,Infosys Foundation Konappana Agrahara,Yellow,13,False,,Sponsored station name
+YL14,Huskur Road,Yellow,14,False,,
+YL15,Hebbagodi,Yellow,15,False,,
+YL16,Bommasandra,Yellow,16,False,,Southern terminus of Yellow Line
+PK01,Kalena Agrahara,Pink,1,False,,Southern terminus of Pink Line
+PK02,Hulimavu,Pink,2,False,,
+PK03,IIM Bangalore,Pink,3,False,,
+PK04,JP Nagar 4th Phase,Pink,4,False,,
+PK05,Jayadeva Hospital,Pink,5,True,Yellow|Pink,Interchange between Yellow and Pink Lines
+PK06,Tavarekere,Pink,6,False,,
+PK07,Dairy Circle,Pink,7,False,,
+PK08,Lakkasandra,Pink,8,False,,
+PK09,Langford Town,Pink,9,False,,
+PK10,Rashtriya Military School,Pink,10,False,,
+PK11,Mahatma Gandhi Road (MG Road),Pink,11,True,Purple|Pink,Interchange between Purple and Pink Lines
+PK12,Shivajinagar,Pink,12,False,,
+PK13,Cantonment,Pink,13,False,,
+PK14,Pottery Town,Pink,14,False,,
+PK15,Tannery Road,Pink,15,False,,
+PK16,Venkateshpura,Pink,16,False,,
+PK17,Kadugundanahalli,Pink,17,False,,
+PK18,Nagawara,Pink,18,True,Pink|Blue,Northern terminus of Pink Line; interchange with Blue Line
+BL01,KIA Airport,Blue,1,False,,Northern terminus of Blue Line (Airport)
+BL02,Kodigehalli,Blue,2,False,,
+BL03,Hebbal,Blue,3,False,,
+BL04,Kempapura,Blue,4,False,,
+BL05,Veersannapalya,Blue,5,False,,
+BL06,Nagawara,Blue,6,True,Pink|Blue,Interchange between Pink and Blue Lines
+BL07,HBR Layout,Blue,7,False,,
+BL08,Kalyan Nagar,Blue,8,False,,
+BL09,HRBR Layout,Blue,9,False,,
+BL10,Horamavu,Blue,10,False,,
+BL11,Kasturinagar,Blue,11,False,,
+BL12,Krishnarajapura (KR Pura),Blue,12,True,Purple|Blue,Interchange between Purple and Blue Lines
+BL13,Mahadevapura,Blue,13,False,,
+BL14,DRDO Sports Complex,Blue,14,False,,
+BL15,Doddanekundi,Blue,15,False,,
+BL16,ISRO (Karthik Nagar),Blue,16,False,,
+BL17,Marathahalli,Blue,17,False,,
+BL18,Kadubeesanahalli,Blue,18,False,,
+BL19,Devarabeesanahalli,Blue,19,False,,
+BL20,Bellandur,Blue,20,False,,
+BL21,Iblur,Blue,21,False,,
+BL22,Agara Lake,Blue,22,False,,
+BL23,Central Silk Board,Blue,23,True,Yellow|Blue,Southern terminus of Blue Line; interchange with Yellow Line

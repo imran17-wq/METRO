@@ -1,0 +1,34 @@
+{
+  "total_synthetic_passengers": 1424042,
+  "num_od_rows": 671046,
+  "num_edge_rows": 38346,
+  "num_congestion_rows": 38808,
+  "num_delay_events": 1022,
+  "avg_peak_congestion_pct": 29.18,
+  "avg_offpeak_congestion_pct": 12.04,
+  "max_congestion_pct": 147.95,
+  "weekday_total": 1023260,
+  "weekend_total": 400782,
+  "top_5_busiest_stations": [
+    {
+      "station_id": "GL17",
+      "total_arrivals": 55193
+    },
+    {
+      "station_id": "PL22",
+      "total_arrivals": 54776
+    },
+    {
+      "station_id": "PL23",
+      "total_arrivals": 46931
+    },
+    {
+      "station_id": "GL24",
+      "total_arrivals": 39827
+    },
+    {
+      "station_id": "YL01",
+      "total_arrivals": 37013
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "model_name": "DelayRiskXGBoost",
+  "skipped": true,
+  "reason": "Skipped delay risk model: training set has only 4 positive examples (< 500 required).",
+  "positive_examples_in_train": 4
+}

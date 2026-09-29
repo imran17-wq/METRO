@@ -1,0 +1,24 @@
+# Phase 0 – Graph foundation
+networkx>=3.0
+pytest>=7.0
+
+# Phase 1 – Routing + API
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+pydantic>=2.0
+httpx>=0.24            # For API testing
+python-multipart>=0.0.6
+
+# Phase 2 – Synthetic demand generation
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+
+# Phase 3 – ML Prediction Layer
+lightgbm>=4.0
+xgboost>=2.0
+shap>=0.44
+scikit-learn>=1.3
+joblib>=1.3
+matplotlib>=3.7
+

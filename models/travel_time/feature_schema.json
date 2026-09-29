@@ -1,0 +1,19 @@
+{
+  "features": [
+    "hour",
+    "minute_bucket",
+    "time_slot",
+    "day_of_week",
+    "is_weekend",
+    "is_peak_slot",
+    "line_enc",
+    "edge_enc",
+    "is_interchange_edge",
+    "scheduled_time_min",
+    "lag1_congestion_pct",
+    "lag2_congestion_pct",
+    "roll3_mean_congestion",
+    "roll6_mean_congestion"
+  ],
+  "target": "travel_time_min"
+}

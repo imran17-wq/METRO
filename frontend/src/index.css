@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base ──────────────────────────────────────────────── */
+:root {
+  --color-cream: #F5F0E8;
+  --color-rust: #C4472B;
+  --color-mustard: #D4A017;
+  --color-dark-bg: #0A0A0A;
+  --color-dark-surface: #111111;
+  --color-dark-card: #181818;
+  --color-dark-border: #242424;
+
+  --metro-purple: #7B2D8B;
+  --metro-green: #2A7D4F;
+  --metro-yellow: #D4A017;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--color-dark-bg);
+  color: var(--color-cream);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Scrollbar ─────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-dark-surface);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* ─── Components ────────────────────────────────────────── */
+@layer components {
+  .card {
+    @apply bg-dark-card border border-dark-border rounded-lg;
+  }
+
+  .card-hover {
+    @apply card transition-all duration-200 hover:border-cream/20 hover:bg-dark-hover;
+  }
+
+  .badge-real {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-data font-bold bg-green-900/50 text-green-300 border border-green-800/50;
+  }
+
+  .badge-synthetic {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-data font-bold bg-amber-900/50 text-amber-300 border border-amber-800/50;
+  }
+
+  .badge-derived {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-data font-bold bg-blue-900/50 text-blue-300 border border-blue-800/50;
+  }
+
+  .badge-simulated {
+    @apply inline-flex items-center px-2 py-0.5 rounded text-xs font-data font-bold bg-purple-900/50 text-purple-300 border border-purple-800/50;
+  }
+
+  .btn-primary {
+    @apply bg-rust text-cream font-body font-semibold px-5 py-2.5 rounded-md
+           transition-all duration-150 hover:bg-rust-light active:bg-rust-dark
+           disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .btn-ghost {
+    @apply border border-dark-border text-cream/70 font-body px-4 py-2 rounded-md
+           transition-all duration-150 hover:border-cream/30 hover:text-cream;
+  }
+
+  .input-field {
+    @apply w-full bg-dark-surface border border-dark-border rounded-md px-3 py-2.5
+           text-cream placeholder-cream/30 font-body text-sm
+           focus:outline-none focus:border-rust/60 focus:ring-1 focus:ring-rust/30
+           transition-all duration-150;
+  }
+
+  .section-title {
+    @apply font-heading text-3xl text-cream tracking-wide uppercase;
+  }
+
+  .nav-link {
+    @apply text-cream/50 font-body text-sm font-medium px-3 py-2 rounded-md
+           transition-colors duration-150 hover:text-cream hover:bg-dark-hover;
+  }
+
+  .nav-link-active {
+    @apply text-cream bg-dark-card font-medium;
+  }
+
+  .line-dot-purple {
+    @apply w-2.5 h-2.5 rounded-full bg-metro-purple ring-2 ring-metro-purple/30;
+  }
+
+  .line-dot-green {
+    @apply w-2.5 h-2.5 rounded-full bg-metro-green ring-2 ring-metro-green/30;
+  }
+
+  .line-dot-yellow {
+    @apply w-2.5 h-2.5 rounded-full bg-metro-yellow ring-2 ring-metro-yellow/30;
+  }
+}
+
+/* ─── Metro line stroke widths ──────────────────────────── */
+.metro-line-stroke {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* ─── Tooltip ───────────────────────────────────────────── */
+.tooltip {
+  pointer-events: none;
+  z-index: 50;
+}

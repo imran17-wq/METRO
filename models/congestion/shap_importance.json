@@ -1,0 +1,17 @@
+{
+  "hist_mean_congestion": 14.8174,
+  "roll6_mean_congestion": 0.0111,
+  "lag1_congestion_pct": 0.0072,
+  "roll3_mean_congestion": 0.0064,
+  "edge_enc": 0.0059,
+  "lag2_congestion_pct": 0.0059,
+  "hour": 0.0031,
+  "time_slot": 0.0028,
+  "minute_bucket": 0.0019,
+  "line_enc": 0.0017,
+  "capacity": 0.0017,
+  "is_interchange_edge": 0.0014,
+  "day_of_week": 0.0005,
+  "is_peak_slot": 0.0001,
+  "is_weekend": 0.0
+}
